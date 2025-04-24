@@ -1,0 +1,51 @@
+# Created at 2025-03-29T13:05:50.942
+org.testng.TestNGException: 
+Cannot instantiate class sumanth.AppTest
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:30)
+	at org.testng.internal.InstanceCreator.instantiateUsingDefaultConstructor(InstanceCreator.java:193)
+	at org.testng.internal.InstanceCreator.createInstanceUsingObjectFactory(InstanceCreator.java:113)
+	at org.testng.internal.InstanceCreator.createInstance(InstanceCreator.java:79)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:109)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:167)
+	at org.testng.TestClass.getInstances(TestClass.java:102)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:82)
+	at org.testng.TestClass.init(TestClass.java:74)
+	at org.testng.TestClass.<init>(TestClass.java:39)
+	at org.testng.TestRunner.initMethods(TestRunner.java:457)
+	at org.testng.TestRunner.init(TestRunner.java:336)
+	at org.testng.TestRunner.init(TestRunner.java:289)
+	at org.testng.TestRunner.<init>(TestRunner.java:180)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:613)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:178)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:112)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1306)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1282)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1131)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:23)
+	... 29 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "Run", @ expected
+	The public type AppTest must be defined in its own file
+	Syntax error on tokens, delete these tokens
+	Syntax error on tokens, delete these tokens
+
+	at sumanth.AppTest.<init>(Apptest.java:6)
+	... 35 more
+
+
